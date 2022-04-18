@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFBF0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/************************* Header part start *****************************/
+header,main,footer{
+    margin: 0 135px 0 135px;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo img{
+width: 291.11px;
+height: 39.27px;
+}
+
+ul,li{
+    display: flex;
+    margin-right: 57px;
+    list-style: none;
+}
+ul,li:last-child{
+    margin-right: 0;
+}
+ul,li,a{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto',
+    sans-serif;
+    color:#3C3C3C;
+    text-decoration: none;
+}
+
+
+
+
+
+/************************* Header part end *****************************/
+
+
+
+/************************* main section start **************************/
+.main-section{
+    display: flex;
+    column-gap: 155px;
+    align-items: center;
+}
+
+.left-part h1{
+    font-family: 'Bebas Neue',
+    cursive;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 80px;
+}
+.left-part p{
+    width: 357px;
+    color:#3E3E3E;
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 26px;
+}
+#orange-color{
+    color:#FABE4C;
+}
+#blue-color{
+    color:#363958;
+}
+ .right-part img{
+    width: 549px;
+    height: 559px;
+ }
+ .button img{
+     width: 24px;
+     height: 24px;
+ }
+ .buy-now{
+     font-family: roboto;
+     font-size: 16px;
+     color:white;
+ }
+.button{
+
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    margin-top: 8px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    /* background-color: #FABE4C; */
+}
+
+/************************* main section end **************************/
+
+/************************** women jacket part start ********************/
+.women-jacket{
+    margin-top: 50px;
+}
+.women-jacket h1{
+    color:#363958;
+    font-size: 48px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+}
+.women-jackets{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.jacket{
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 38px;
+    background-color: #edf2f2a9;
+    box-shadow: 0px 10px 30px rgba(66, 58, 58, 0.622);
+}
+.jacket-image img{
+    width: 293px;
+    height: 293px;
+    background: #d8cbcb8f;
+    border-radius: 20px;
+    padding: 20px;
+}
+.jacket-info h1{
+  color:#363958;
+  font-size: 24px;
+  font-family: roboto;
+  font-weight: 700;
+}
+.jacket-info p{
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 400;
+    color:#3E3E3E;
+    line-height: 26px;
+}
+.jacket-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-family: roboto;
+    font-size: 36px;
+    color:#FABE4C;
+    font-weight: 900;
+}
+/************************** women jacket part end ********************/
+
+
+
+/******************* man jacket part start ************************/
+#man-jacket{
+    margin-top: 100px;
+}
+/************************* man jacket part end *********************/
+
+
+/**************************** last section or services section start ****************/
+
+.last-section{
+    display: flex;
+    column-gap: 83px;
+    align-items: center;
+    margin-top: 130px;
+}
+.single-service{
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+    margin-bottom: 16px;
+    width: 489px;
+    height: 135px;
+    padding: 27px;
+    background: #f1e8e892;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.house img{
+    width: 78px;
+    height: 82px;
+}
+.house-content h1{
+    color:#363958;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: roboto;
+}
+.house-content p{
+    color:#363958;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: roboto;
+    line-height: 26px;
+}
+.shopping img{
+    width:599px;
+    height: 354.07px;
+}
+
+/**************************** last section or services section end ****************/
+footer h1{
+    color:white;
+    font-weight: 700;
+    font-family: roboto;
+}
+footer{
+    background-color: #363958;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
